@@ -14,7 +14,7 @@ const Page3 = () =>{
                     <p className="mt-2 text-gray-500 p-4 text-[.7rem]">Improving skills requires dedication, practice, and embracing challenges. Engage in continuous learning, seek feedback, and set actionable goals to cultivate expertise and reach your full potential.</p>
                 </div>
             </div>
-             <div className="mx-auto mt-4">
+             <div className="mx-auto mt-4 mb-5">
                     <NavLink to='/MathComfort'>
                         <button className="py-2 px-10 mt-8 rounded-md text-sm text-white bg-black hover:bg-slate-500">Continue</button>
                     </NavLink>
