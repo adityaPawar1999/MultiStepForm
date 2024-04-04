@@ -2,12 +2,27 @@ import React from 'react';
 
 const DemoComponent = () => {
   return (
-    <div className=" flex flex-col justify-top items-center mt-16">
-      <div className="max-w-7xl w-full p-8 text-left">
-        <h1 className="text-5xl font-bold text-stone-700 mb-4">Hello <span className='text-stone-600'>World!</span></h1>
-        <p className="text-base text-gray-700">  Cheers,<br />Start your project 🚀</p>
+    <div className='grid place-content-center h-screen'>
+      
+      <div className=' max-w-sm mx-auto shadow-lg '>
+        <div>
+          <img
+          className='w-full h-20 object-cover' 
+        src='https://tse4.explicit.bing.net/th?id=OIP.e2SiJ1e1tAkt3YN-C4h7EAAAAA&pid=Api&P=0&h=180'
+        alt='img'
+        />
+        </div>
+        <div className='p-5'>
+          <h2 className='font-medium'>title here</h2>
+          <p className='text-slate-400'> description here we can write</p>
+        </div>
       </div>
+
+      <button className='bg-sky-500 mt-6 p-5 text-white rounded-sm hover:bg-black hover:text-red-600'>buy now</button>
     </div>
+
+
+
   );
 }
 
