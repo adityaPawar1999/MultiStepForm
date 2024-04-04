@@ -32,7 +32,7 @@ const DescribeYourSelf = () => {
                         </div>
                     ))}
                 </div>
-                <div className="mx-auto mt-4">
+                <div className="mx-auto mt-4 mb-5">
                     {selected !== null ? (
                         <NavLink to='/yourInterest'>
                             <button className="py-2 px-10 rounded-md text-sm text-white bg-black hover:bg-slate-500">Continue</button>
