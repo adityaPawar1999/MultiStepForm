@@ -19,7 +19,7 @@ const Page5 = () =>{
                     <p className=" text-gray-900 p-4 text-[.8rem] font-bold">-adityapawar</p>
                 </div>
             </div>
-             <div className="mx-auto mt-4">
+             <div className="mx-auto mt-4 mb-5">
                     <NavLink to='/loading6'>
                         <button className="py-2 px-10 mt-8 rounded-md text-sm text-white bg-black hover:bg-slate-500">Continue</button>
                     </NavLink>
