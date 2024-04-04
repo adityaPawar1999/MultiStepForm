@@ -35,7 +35,7 @@ const MathComfort = () => {
                     </div>
                 ))}
             </div>
-            <div className="mx-auto mt-10 mb-5">
+            <div className="mx-auto mt-10 mb-8">
                 {selected !== null ? (
                     <NavLink to='/page5'>
                         <button className="py-2 px-10 rounded-md text-sm text-white bg-black hover:bg-slate-500">Continue</button>
