@@ -7,6 +7,7 @@ import MathComfort from './Components/MathComfort/MathComfort';
 import Page5 from './Components/Page5';
 import Loading6 from './Components/Loading6';
 import Result from './Components/Result/Result';
+import { LevelProvider } from './LevelProvider';
 
 function Progress() {
   const location = useLocation();
@@ -69,7 +70,8 @@ function App() {
 
   return (
     <>
-      {progress < 100 && shouldShowProgress && <Progress />}
+    <LevelProvider>
+        {progress < 100 && shouldShowProgress && <Progress />}
       <Routes>
         <Route path="/" element={<DescribeYourSelf />} />
         <Route path="/yourInterest" element={<YourInterest />} />
@@ -79,6 +81,8 @@ function App() {
         <Route path="/loading6" element={<Loading6 />} />
         <Route path="/result" element={<Result />} />
       </Routes>
+    </LevelProvider>
+      
     </>
   );
 }

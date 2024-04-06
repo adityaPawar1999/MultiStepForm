@@ -1,6 +1,12 @@
+import { useLevel } from "../../LevelProvider";
 import ResultData from "./ResultData";
 
 const Result = () => {
+  const { level } = useLevel();
+
+  const filteredData = ResultData.filter(data => data.level == level);
+  console.log(filteredData);
+
   return (
     <div className="grid place-content-center min-h-screen">
       <div className="text-center mb-6 mt-[-3rem]">
@@ -8,7 +14,7 @@ const Result = () => {
         <p className="text-gray-400 font-light">Choose one to get started. You can switch anytime.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {ResultData.map((value, index) => (
+        {filteredData.map((value, index) => (
           <div key={index} className="max-w-lg flex border hover:shadow-lg relative cursor-pointer">
             {value.new !== "" && (
               <div className="z-10 absolute top-0 left-0 w-full h-10 bg-white flex justify-center items-center">
@@ -26,7 +32,7 @@ const Result = () => {
               </p>
             </div>
             <div className="flex-shrink-0">
-              <img className="h-48 w-full object-cover md:w-48 p-5" src={value.img} alt="imge" />
+              <img className="h-48 w-full object-cover md:w-48 p-5" src={value.img} alt="imae" />
             </div>
           </div>
         ))}

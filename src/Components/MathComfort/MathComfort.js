@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import MathData from "./MathData";
+import { useLevel } from "../../LevelProvider";
 
 const MathComfort = () => {
+    const { level, setLevel } = useLevel()
     const [selected, setSelected] = useState(null);
 
-    const selectOne = (index) => {
-        setSelected(index);
-    }
+    const selectOne = (index, value) => {
+    setSelected(index);
+    setLevel(value.levelId); 
+}
 
     return (
         <div className="grid place-content-center min-h-screen">
@@ -21,7 +24,7 @@ const MathComfort = () => {
                         key={index}
                         className={` border hover:shadow-md cursor-pointer p-1 rounded-sm transition-all duration-900 ease-in-out ${selected === index ? 'shadow-md' : 'bg-white'}`}
                         style={{ width: '100%', height: '200px' }}
-                        onClick={() => selectOne(index)}
+                        onClick={() => selectOne(index, value)}
                     >
                         <img
                             className="object-cover  h-[100px] "
