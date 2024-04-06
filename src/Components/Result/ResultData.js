@@ -18,7 +18,7 @@ const ResultData =
   },
   {
     "id": 13,
-    "new": true,
+    "new": false,
     "title": "Elementary Algebra: Introduction to Equations",
     "descr": "Learn to solve basic algebraic equations and explore introductory concepts in elementary algebra.",
     "img": "https://tse2.mm.bing.net/th?id=OIP.NiRjVP1MCR_tart0IyOxQwHaLW&pid=Api&P=0&h=180",
