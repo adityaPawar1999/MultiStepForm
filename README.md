@@ -2,6 +2,9 @@ Live
 Demo : 
 https://660ec6121b2173105253c86e--flourishing-dieffenbachia-f8b8c3.netlify.app/
 
+
+A comprehensive collection of learning resources tailored to your level of expertise in mathematics. Whether you're a beginner looking to build a solid foundation or an advanced learner seeking to master complex topics, this repository has something for everyone.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
