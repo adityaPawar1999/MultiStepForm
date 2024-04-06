@@ -18,7 +18,7 @@ const ResultData =
   },
   {
     "id": 13,
-    "new": false,
+    "new": true,
     "title": "Elementary Algebra: Introduction to Equations",
     "descr": "Learn to solve basic algebraic equations and explore introductory concepts in elementary algebra.",
     "img": "https://tse2.mm.bing.net/th?id=OIP.NiRjVP1MCR_tart0IyOxQwHaLW&pid=Api&P=0&h=180",
@@ -34,7 +34,7 @@ const ResultData =
   },
   {
     "id": 4,
-    "new": false,
+    "new": true,
     "title": "Advanced Algebra Techniques",
     "descr": "Explore advanced algebraic techniques and problem-solving strategies.",
     "img": "https://pictures.abebooks.com/isbn/9781932628432-us.jpg",
@@ -50,7 +50,7 @@ const ResultData =
   },
   {
     "id": 6,
-    "new": false,
+    "new": true,
     "title": "Mathematical Mastery: Beyond Intermediate",
     "descr": "Take your mathematical skills to the next level by mastering advanced concepts and techniques beyond intermediate mathematics.",
     "img": "https://tse3.mm.bing.net/th?id=OIP.ruM-4Zwbruilx6qlV2WuLwAAAA&pid=Api&P=0&h=180",
@@ -66,7 +66,7 @@ const ResultData =
   },
   {
     "id": 11,
-    "new": false,
+    "new": true,
     "title": "Advanced Mathematics Seminar Series",
     "descr": "Attend a series of seminars covering advanced mathematical topics, including algebraic structures, analysis, and more.",
     "img": "https://tse1.mm.bing.net/th?id=OIP.CuwVLZtJpoPmbPe-RybuRgHaJO&pid=Api&P=0&h=180",
