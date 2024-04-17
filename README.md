@@ -1,77 +1,53 @@
-Live 
-Demo : 
-https://660ec6121b2173105253c86e--flourishing-dieffenbachia-f8b8c3.netlify.app/
 
+# MultiStepForm : Personalized Math Course Recommendations
 
-A comprehensive collection of learning resources tailored to your level of expertise in mathematics. Whether you're a beginner looking to build a solid foundation or an advanced learner seeking to master complex topics, this repository has something for everyone.
+MathCourseSelector is a React-based web application designed to provide personalized math course recommendations based on user input. Utilizing Tailwind CSS for styling, this project offers a sleek and responsive user interface for an enhanced user experience.
 
-# Getting Started with Create React App
+Live Demo : https://660ec6121b2173105253c86e--flourishing-dieffenbachia-f8b8c3.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **Personalized Course Recommendations:** Based on user input regarding their occupation and proficiency level in mathematics, the application suggests relevant math courses.
+- **User-Friendly Interface:** An intuitive interface guides users through the questionnaire process, making it easy to provide input and receive course recommendations.
+- **Tailwind CSS Styling:** Leveraging Tailwind CSS, the project ensures consistent and visually appealing design across all devices.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository: `git clone https://github.com/yourusername/math-course-selector.git`
+2. Navigate to the project directory: `cd math-course-selector`
+3. Install dependencies: `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Start the development server: `npm start`
+2. Open your web browser and navigate to `http://localhost:3000`
+3. Answer the questionnaire by selecting your occupation and indicating your proficiency level in mathematics.
+4. Based on your responses, the application will generate personalized math course recommendations.
+5. Explore the recommended courses and choose the one that best suits your needs.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- Tailwind CSS
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For any inquiries or feedback, please contact adityapwar8909@gmail.com or open an issue on the GitHub repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to adjust any part of this README to better fit your project's structure and requirements!
